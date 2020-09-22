@@ -49,26 +49,45 @@
 // };
 // console.log(het(hello));
 
-const numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', '');
+// const numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', '');
 
-const personalMovieDB = {
-      count: numberOfFilms,
-      movies: {},
-      actors: {},
-      genres: [],
-      priver : false
-};
-const a = prompt('Один из последних просмотренных фильмов', '' ),
-      b = prompt('Насколько оцените его?', ''),
-      c = prompt('Одни из последних просмотренных фильмов?', ''),
-      d = prompt('Насколько оцените его?', '');
+// const personalMovieDB = {
+//       count: numberOfFilms,
+//       movies: {},
+//       actors: {},
+//       genres: [],
+//       priver : false
+// };
+// const a = prompt('Один из последних просмотренных фильмов', '' ),
+//       b = prompt('Насколько оцените его?', ''),
+//       c = prompt('Одни из последних просмотренных фильмов?', ''),
+//       d = prompt('Насколько оцените его?', '');
 
-// const e = prompt('Leanardo Decaprio'),
-//       f = prompt('margin');
+// // const e = prompt('Leanardo Decaprio'),
+// //       f = prompt('margin');
 
 
- personalMovieDB.movies[a] = b;
- personalMovieDB.movies[c] = d;
-//  personalMovieDB.actors[e] = f;
+//  personalMovieDB.movies[a] = b;
+//  personalMovieDB.movies[c] = d;
+// //  personalMovieDB.actors[e] = f;
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
+//  const numberGames = prompt('How many games you played?');
+
+//  const personalGamesDB = {
+//        count : numberGames,
+//        games : [],
+//        characters : [],
+//        ganres : [],
+//        priver : false
+//  };
+
+//  const a = prompt('What kinda games u played?', ''),
+//       b = prompt('How would you rate them?', ''),
+//       c = prompt('What kinda games u played?', ''),
+//       d = prompt('How would you rate them?', '');
+
+// personalGamesDB.games[a] = b;
+// personalGamesDB.games[c] = d;
+
+// console.log(personalGamesDB);
