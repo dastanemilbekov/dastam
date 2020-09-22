@@ -25,26 +25,50 @@
 // console.log(4 + "- object");
 // console.log(4 + 5);
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
-// incr++;
-// decr--;
+// // incr++;
+// // decr--;
 
-console.log(++incr);
-console.log(--decr);
+// console.log(++incr);
+// console.log(--decr);
 
-console.log(5%2);
+// console.log(5%2);
 
-console.log(2 + 2 + 2 != '8');
+// console.log(2 + 2 + 2 != '8');
 
-const isChecked = true,
-      isClose = true,
-      isOpen = true;
+// const isChecked = true,
+//       isClose = true,
+//       isOpen = true;
 
-console.log(!isChecked || isClose && !isOpen);
-let het = {
-      hello : 50,
-      heu : "2-"
+// console.log(!isChecked || isClose && !isOpen);
+// let het = {
+//       hello : 50,
+//       heu : "2-"
+// };
+// console.log(het(hello));
+
+const numberOfFilms = +prompt('Сколько фильмов вы посмотрели?', '');
+
+const personalMovieDB = {
+      count: numberOfFilms,
+      movies: {},
+      actors: {},
+      genres: [],
+      priver : false
 };
-console.log(het(hello));
+const a = prompt('Один из последних просмотренных фильмов', '' ),
+      b = prompt('Насколько оцените его?', ''),
+      c = prompt('Одни из последних просмотренных фильмов?', ''),
+      d = prompt('Насколько оцените его?', '');
+
+// const e = prompt('Leanardo Decaprio'),
+//       f = prompt('margin');
+
+
+ personalMovieDB.movies[a] = b;
+ personalMovieDB.movies[c] = d;
+//  personalMovieDB.actors[e] = f;
+
+console.log(personalMovieDB);
