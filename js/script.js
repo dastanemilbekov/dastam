@@ -91,3 +91,40 @@
 // personalGamesDB.games[c] = d;
 
 // console.log(personalGamesDB);
+// const okLets = [];
+// okLets[0] = prompt('hey whats up?', ''),
+// okLets[1] = prompt('i sorry i forgot to ask whats your name', '');
+ 
+// console.log()
+
+// if (5 === 5) {
+//        console.log('truth');
+// } else {
+//       console.log('fuck');
+// }
+// const game = 50;
+
+// if (game < 40) {
+//       console.log('baddd');
+// } else if (game > 60) {
+//       console.log('yes my guy');
+// } else {
+//       console.log('fuck!');
+// }
+// (game === 50) ? console.log('yes') : console.log("Error");
+const num = '50';
+
+switch (num) {
+      case 40:
+            console.log('Неверно');
+            break;
+      case 100:
+           console.log('Неверно');
+           break;
+      case '50':
+            console.log('ТАк и есть');
+            break;
+      default:
+            console.log('Не в этот раз');
+            break;
+}
